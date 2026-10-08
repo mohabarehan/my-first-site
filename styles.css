@@ -116,3 +116,38 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th {
+    background: #2c3e50;
+    color: white;
+    padding: 0.7rem;
+    text-align: left;
+}
+
+td {
+    padding: 0.7rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+td:first-child {
+    font-family: Consolas, monospace;
+    color: #3498db;
+}
+
+tr:hover td {
+    background: #f9fbfd;
+}
+
+.pipeline {
+    text-align: center;
+    font-weight: bold;
+    color: #3498db;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
